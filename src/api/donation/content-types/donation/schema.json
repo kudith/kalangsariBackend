@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donations",
+  "info": {
+    "singularName": "donation",
+    "pluralName": "donations",
+    "displayName": "Donation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "phone_number": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "date": {
+      "type": "datetime",
+      "required": false
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "is_anonymous": {
+      "type": "boolean"
+    }
+  }
+}
